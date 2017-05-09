@@ -12,3 +12,4 @@ data/*/*
 mothur*logfile
 *temp*
 *.docx
+code/mothur
