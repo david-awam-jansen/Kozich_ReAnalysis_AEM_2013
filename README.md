@@ -1,8 +1,25 @@
 ## TITLE OF YOUR PAPER GOES HERE
-
+### David Jansen
 YOUR PAPER'S ABSTRACT GOES HERE
+### Scaling up
+Scaling up.The advantage of the dual-index approach is that a large number of samples can be sequenced using a number of primers equal to only twice the square root of$
 
+### Figure 4 legend
+Principal coordinate ordination of ϴYC values (28) relating the community structures of the fecal microbiota from 12 mice collected on days 0 through 9 (Early) and day$
 
+### Data downloads
+Data was downloaded on may 8th using wget.
+
+#### Raw sequence data
+http://www.mothur.org/MiSeqDevelopmentData.html
+
+#### References 
+SILVA-based bacterial reference alignment https://mothur.org/w/images/9/98/Silva.bacteria.zip
+mothur-formatted version of the RDP training set (v.9) https://mothur.org/w/images/5/59/Trainset9_032012.pds.zip
+
+#### Mothur download
+version 1.39.5
+https://github.com/mothur/mothur/releases/download/v1.39.5/Mothur.linux_64.zip
 
 
 ### Overview
@@ -57,3 +74,4 @@ YOUR PAPER'S ABSTRACT GOES HERE
 git clone https://github.com/SchlossLab/LastName_BriefDescription_Journal_Year.git
 make write.paper
 ```
+
