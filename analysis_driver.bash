@@ -41,3 +41,6 @@ code/mothur/mothur code/get_shared_otus.batch
 
 # Generate nmds axes file for plotting from shared file
 code/mothur/mothur code/get_nmds_data.batch
+
+# Generate ndms plot as png file
+R -e "source('code/plot_ndms.R'); plot_ndms('data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.thetayc.0.03.lt.ave.nmds.axes')"
