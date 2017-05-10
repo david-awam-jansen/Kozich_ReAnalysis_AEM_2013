@@ -1,7 +1,17 @@
 ```
+title: Reproducting Kor_2013
+author: David Jansen
 output: HTML_document
 ```
 
+```{r}
+shared_file_name <- "data/mothur/stability.trim.contigs.good.unique.good.filter.unique.precluster.pick.pick.pick.opti_mcc.shared"
+ shared_file <- read.table(file=shared_file_name, header=T, stringsAsFactors=F)
+ sequence_counts <- rowSums(shared_file[,-c(1,2,3)])
+ million_sequence_counts <- sum(sequence_counts)/1e6
+ average_seqeunce_counts <- mean(sequence_counts)
+ percentile_sequence_counts <- quantile(sequence_counts, prob=0.05)
+```
 
 
  **Scaling up.** The advantage of the dual-index approach is that a large
@@ -14,9 +24,9 @@ output: HTML_document
     and 141 to 150 (late) days after weaning, and there was significantly less
     variation between the late samples than the early samples. In addition to
     the mouse fecal samples, we allocated 2 pairs of indices to resequence our
-    mock community. We generated 4.3 million pairs of sequence reads from the
-    16S rRNA gene with an average coverage of 9,913 pairs of reads per sample
-    (95% of the samples had more than 2,454 pairs of sequences) using a new
+    mock community. We generated `r million_sequence_counts` milion pairs of sequence reads from the
+    16S rRNA gene with an average coverage of `r average_seqeunce_counts ` pairs of reads per sample
+    (95% of the samples had more than `r percentile_sequence_counts ` pairs of sequences) using a new
     collection of 8-nt indices (see the supplemental material). Although
     individual samples were expected to have various amplification efficiencies,
     analysis of the number of reads per index did not suggest a systematic
