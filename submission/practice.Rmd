@@ -51,7 +51,7 @@ summary(sequence_counts)
 This is our attempt to reproducice thework by Kozt et al that used the mouse data of 
 Schloss et al [@Schloss2012].
 
-
+check
  **Scaling up.** The advantage of the dual-index approach is that a large
     number of samples can be sequenced using a number of primers equal to only
     twice the square root of the number of samples. To fully evaluate this
