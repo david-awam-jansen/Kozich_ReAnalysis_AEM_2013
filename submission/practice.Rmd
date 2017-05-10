@@ -1,9 +1,11 @@
 ---
-title: Reproducing Kozich et al
-author: David Jansen
-date: "May 10, 2017"
-output: html_document
+title: 'Test'
+output:
+  html_document:
+author: baptiste
 ---
+
+
 
 ```{r knitr_settings, eval=TRUE, echo=FALSE, cache=FALSE}
 opts_chunk$set("tidy" = TRUE)
