@@ -1,9 +1,9 @@
- ---
-    title: Reproducing Kozich et al
-    author: David Jansen
-    date: "May 10, 2017"
-    output: html_document
-    ---
+---
+title: Reproducing Kozich et al
+author: David Jansen
+date: "May 10, 2017"
+output: html_document
+---
 
 ```{r knitr_settings, eval=TRUE, echo=FALSE, cache=FALSE}
 opts_chunk$set("tidy" = TRUE)
